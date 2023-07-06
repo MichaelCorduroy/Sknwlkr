@@ -1,3 +1,107 @@
-[gd_scene format=3 uid="uid://q27lfc4c4c5"]
+[gd_scene load_steps=9 format=3 uid="uid://q27lfc4c4c5"]
+
+[ext_resource type="Texture2D" uid="uid://nbp3ed635ttk" path="res://textures/terrains/grass/light_grass1.png" id="1_ia8fb"]
+[ext_resource type="Texture2D" uid="uid://u1wogh5eott2" path="res://textures/terrains/plants/log2.png" id="2_e0jgv"]
+[ext_resource type="Texture2D" uid="uid://bwrswownxeq4u" path="res://textures/terrains/rocks_dirt/dirt1.png" id="3_d3sbw"]
+[ext_resource type="Texture2D" uid="uid://bd1hehhc3pghn" path="res://textures/terrains/grass/light_grass9.png" id="4_u67te"]
+[ext_resource type="Texture2D" uid="uid://bchju1i75jct4" path="res://textures/terrains/rocks_dirt/dirt3.png" id="5_y71is"]
+[ext_resource type="Texture2D" uid="uid://bib3e07js7uma" path="res://textures/terrains/grass/light_grass8.png" id="6_04c1n"]
+[ext_resource type="Texture2D" uid="uid://bfp0pvrafyb6w" path="res://textures/terrains/grass/light_grass7.png" id="7_m4fcn"]
+[ext_resource type="Texture2D" uid="uid://c5wc4lfgj87sl" path="res://textures/terrains/grass/light_grass6.png" id="8_v00jo"]
 
 [node name="grass_space" type="Node2D"]
+
+[node name="LightGrass1" type="Sprite2D" parent="."]
+position = Vector2(168, 360)
+scale = Vector2(5, 5)
+texture = ExtResource("1_ia8fb")
+
+[node name="LightGrass2" type="Sprite2D" parent="."]
+position = Vector2(248, 360)
+scale = Vector2(5, 5)
+texture = ExtResource("1_ia8fb")
+
+[node name="LightGrass3" type="Sprite2D" parent="."]
+position = Vector2(168, 440)
+scale = Vector2(5, 5)
+texture = ExtResource("1_ia8fb")
+
+[node name="LightGrass4" type="Sprite2D" parent="."]
+position = Vector2(248, 440)
+scale = Vector2(5, 5)
+texture = ExtResource("1_ia8fb")
+
+[node name="LightGrass5" type="Sprite2D" parent="."]
+position = Vector2(328, 360)
+scale = Vector2(5, 5)
+texture = ExtResource("1_ia8fb")
+
+[node name="LightGrass10" type="Sprite2D" parent="."]
+position = Vector2(184, 496)
+scale = Vector2(5, 5)
+texture = ExtResource("1_ia8fb")
+
+[node name="Log2" type="Sprite2D" parent="."]
+position = Vector2(248, 376)
+scale = Vector2(5, 5)
+texture = ExtResource("2_e0jgv")
+
+[node name="Dirt1" type="Sprite2D" parent="."]
+position = Vector2(352, 520)
+scale = Vector2(5, 5)
+texture = ExtResource("3_d3sbw")
+
+[node name="LightGrass9" type="Sprite2D" parent="."]
+position = Vector2(336, 520)
+scale = Vector2(5, 5)
+texture = ExtResource("4_u67te")
+
+[node name="Dirt2" type="Sprite2D" parent="."]
+position = Vector2(280, 584)
+scale = Vector2(5, 5)
+texture = ExtResource("3_d3sbw")
+
+[node name="Dirt3" type="Sprite2D" parent="."]
+position = Vector2(200, 568)
+scale = Vector2(5, 5)
+texture = ExtResource("5_y71is")
+
+[node name="LightGrass8" type="Sprite2D" parent="."]
+position = Vector2(264, 520)
+scale = Vector2(5, 5)
+texture = ExtResource("6_04c1n")
+
+[node name="Dirt4" type="Sprite2D" parent="."]
+position = Vector2(120, 544)
+scale = Vector2(5, 5)
+texture = ExtResource("3_d3sbw")
+
+[node name="LightGrass7" type="Sprite2D" parent="."]
+position = Vector2(111.875, 504)
+scale = Vector2(4.94231, 5)
+texture = ExtResource("7_m4fcn")
+
+[node name="LightGrass11" type="Sprite2D" parent="."]
+position = Vector2(184, 512)
+scale = Vector2(5, 5)
+texture = ExtResource("6_04c1n")
+
+[node name="Dirt5" type="Sprite2D" parent="."]
+position = Vector2(408, 472)
+scale = Vector2(4.545, 5)
+texture = ExtResource("3_d3sbw")
+
+[node name="LightGrass6" type="Sprite2D" parent="."]
+position = Vector2(328, 440)
+scale = Vector2(5, 5)
+texture = ExtResource("1_ia8fb")
+
+[node name="LightGrass12" type="Sprite2D" parent="."]
+position = Vector2(408, 384)
+scale = Vector2(5, 5)
+texture = ExtResource("8_v00jo")
+
+[node name="LightGrass13" type="Sprite2D" parent="."]
+position = Vector2(400, 464)
+scale = Vector2(5, 5)
+texture = ExtResource("4_u67te")
